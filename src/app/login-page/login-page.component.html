@@ -1,15 +1,8 @@
-<h1>Login</h1>
+<h1 class="centered-text">Login</h1>
 <p *ngIf="error">{{ error }}</p>
-<input
-    placeholder="Enter your email..."
-    [(ngModel)]="email" />
-<input 
-    type="password"
-    placeholder="Enter your password.."
-    [(ngModel)]="password" /><br>
-<a routerLink="/create-account">Don't have an account? Create one</a>
+
 <br>
-<button (click)="logIn()" class="login-button">Login</button>
+<!-- <button (click)="logIn()" class="login-button">Login</button> -->
 
 <form>
     <br>
@@ -17,7 +10,9 @@
     <p class="deliveryLoginMessage">Order food as a guest. Login to deliver.</p> <br>
     <hr width="80%">
     <label for="username">Username</label>    
-    <input class="username"
+    <input 
+    type="email"
+    class="username"
     placeholder="Enter your email..."
     [(ngModel)]="email" /><br>
     <label for="password">Password</label>
@@ -27,7 +22,8 @@
     [(ngModel)]="password" /><br>
  
     <button class="delivery-login-button" type="submit">Delivery login</button>
-
+    <br>
+    <a routerLink="/create-account">Don't have an account? Create one</a>
 </form>
 
 <br>
