@@ -1,4 +1,64 @@
+<img src="../../assets/Festival-food-bg.png" alt="Festival Food" id="app-image">
+   
+<div id="notification">
+    <h2 class="main-title">Delivery Status</h2><br>
+    <p class="main-text" id="status-text">Delivery is currently <span id="status">offline</span>. <br></p>
+ 
+    <br>
+    <p class="main-text">Only available at</p><br>
+    <img src="./assets/bh.png" alt="Beatherder" id="bh-image">
+  </div>
+
+
 <h1>Home</h1>
 <p>Hello and welcome, you are logged in</p>
 <button (click)="logOut()">Log out</button>
+
+
+
+  
+
+<div hidden class="settings-container">
+
+  <div class="toggle-container">
+    <input type="checkbox" id="delivery-toggle">
+    <label for="delivery-toggle">Toggle Delivery</label>
+  </div>
+  <div style="display: none;" class="toggle-container-capacity">
+    <input type="checkbox" id="capacity-toggle">
+    <label for="capacity-toggle">Too Many Orders</label>
+  </div>
+  <br>
+  <hr width="80%"><br>
+  <button class="pill-button" id="order-history-btn" type="submit">Order History</button><br>
+  <button class="pill-button" id="logout-button" type="submit">Logout</button>
+
+
+  </div>
+<br>
+
+
+
+
+
+<div id="menu">
+    <h2 hidden class="main-title">Menu</h2>
+    <div id="food-list-container">
+      <!-- Food items will be dynamically added here -->
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/coffee.jpg" class="card-img-top" alt="Coffee">
+        <div class="card-body">
+          <h5 class="card-title">Cafe Latte</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  
+
 

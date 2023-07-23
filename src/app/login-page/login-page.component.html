@@ -6,6 +6,38 @@
 <input 
     type="password"
     placeholder="Enter your password.."
-    [(ngModel)]="password" />
+    [(ngModel)]="password" /><br>
 <a routerLink="/create-account">Don't have an account? Create one</a>
-<button (click)="logIn()">Log In</button>
+<br>
+<button (click)="logIn()" class="login-button">Login</button>
+
+<form>
+    <br>
+    <button (click)="logIn()" id="guest-login-button" class="guest-login-button">Order as guest</button>  <br>
+    <p class="deliveryLoginMessage">Order food as a guest. Login to deliver.</p> <br>
+    <hr width="80%">
+    <label for="username">Username</label>    
+    <input class="username"
+    placeholder="Enter your email..."
+    [(ngModel)]="email" /><br>
+    <label for="password">Password</label>
+<input 
+    type="password"
+    placeholder="Enter your password.."
+    [(ngModel)]="password" /><br>
+ 
+    <button class="delivery-login-button" type="submit">Delivery login</button>
+
+</form>
+
+<br>
+
+
+
+<div class="login-container">
+
+    <br><br>
+
+
+    
+</div>
