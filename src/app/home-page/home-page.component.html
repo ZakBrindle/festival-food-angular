@@ -1,4 +1,67 @@
-<h1>Home</h1>
-<p>Hello and welcome, you are logged in</p>
-<button (click)="logOut()">Log out</button>
+<img src="../../assets/Festival-food-bg.png" alt="Festival Food" id="app-image">
+   
+<div id="notification">
+    <h2 class="main-title">Delivery Status</h2><br>
+    <p class="main-text" id="status-text">Delivery is currently <span id="status">offline</span>. <br></p>
+ 
+    <br>
+    <p class="main-text">Only available at</p><br>
+    <img src="./assets/bh.png" alt="Beatherder" id="bh-image">
+  </div>
+<br>
+<div class="settings-container">
+
+  <div class="toggle-container">
+    <input type="checkbox" id="delivery-toggle">
+    <label for="delivery-toggle">Toggle Delivery</label>
+  </div>
+  <div style="display: none;" class="toggle-container-capacity">
+    <input type="checkbox" id="capacity-toggle">
+    <label for="capacity-toggle">Too Many Orders</label>
+  </div>
+  <br>
+  <hr width="80%"><br>
+  <button class="pill-button" id="order-history-btn" type="submit">Order History</button><br>
+  <button (click)="logOut()" class="pill-button" id="logout-button" type="submit">Logout</button>
+
+
+  </div>
+<br>
+
+
+
+
+
+<div id="menu">
+    <h2 hidden class="main-title">Menu</h2>
+    <div id="food-list-container">
+      <!-- Food items will be dynamically added here -->
+
+
+
+      <div class="card-container">
+        <img src="../../assets/coffee.jpg" class="card-img-left" alt="Coffee">
+        <div class="card-body">
+          <h5 class="card-title">Cafe Latte</h5>  <p class="card-text">£8.50</p>
+          <button class="btn-order-item">Order for delivery</button>
+        
+        </div>
+      </div>
+
+      
+      <div class="card-container">
+        <img src="../../assets/mexican-burrito.jpg" class="card-img-left" alt="Mexican Burrito">
+        <div class="card-body">
+          <h5 class="card-title">Mexican Burrito</h5>  <p class="card-text">£22</p>
+          <button class="btn-order-item">Order for delivery</button>
+        
+        </div>
+      </div>
+      
+
+
+    </div>
+  </div>
+  
+
 
