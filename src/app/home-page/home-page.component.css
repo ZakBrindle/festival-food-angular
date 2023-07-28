@@ -1,0 +1,112 @@
+.toggle-container label {
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 24px;
+    background-color: #834242;;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .toggle-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-container input[type="checkbox"] {
+    display: none;
+  }
+  
+
+  
+  .toggle-container input[type="checkbox"]:checked + label {
+    background-color: #9FC34D;
+    color: #0b1106bb;
+  }
+  
+
+  .settings-container {
+    /*display: none;  Initially hide the login container */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #logout-button {
+    border: none;
+    border-radius: 50px;
+    padding: 12px 80px;
+    font-size: 24px;
+    background-color: #834242;;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  
+  
+  #logout-button.pill-button {
+    background-color: #a74040;
+    color: white;
+  }
+  
+  #logout-button.pill-button:hover {
+    background-color: #a76f6f;
+    color: white;
+  
+  }
+
+
+
+  .card-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+  }
+  
+  .card-img-left {
+    flex: 1;
+    max-width: 18rem;
+  }
+  
+  .card-body {
+    flex: 2;
+    padding: 0 1rem;
+    text-align: left;
+  }
+  
+  .card-text {
+    flex: 2;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(139, 139, 139);
+  }
+  
+  .card-title {
+    flex: 2;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+  }
+  
+  .btn-order-item {
+    border: none;
+    border-radius: 50px;
+    padding: 12px 10px;
+    font-size: 24px;
+    background-color: #5a9fc1;
+    color: white;
+    cursor: pointer;
+    display: block;
+    width: 50%;
+  }
