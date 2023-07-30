@@ -1,5 +1,5 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { environment } from './environment/environment';
+
 import { AppModule } from './app/app.module';
 
 
