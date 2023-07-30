@@ -13,8 +13,8 @@ import { ViewEncapsulation } from '@angular/core';
 export class HomePageComponent {
   foodToggle = true;
   drinkToggle = true;
-  glampingImageUrl = 'assets/glamping.jpg';
-  cardsImageUrl = 'assets/playing-cards.jpg';
+  glampingImageUrl = 'https://i.imgur.com/0e3TNvV.jpg';
+  cardsImageUrl = 'https://i.imgur.com/bn2NcWH.jpg';
   groups: string[] = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
   options: number[] = Array.from({length: 30}, (_, i) => i + 1); // creates an array [1, 2, ..., 30]
 
@@ -28,6 +28,7 @@ export class HomePageComponent {
   public showMainImage: boolean = true;
   public settingsMenu: boolean = false;
 
+  
 
   @ViewChild('menuDiv') menu!: ElementRef;
   @ViewChild('menu') menuElement!: ElementRef;
@@ -89,58 +90,58 @@ export class HomePageComponent {
       name: 'Mexican Burrito',
       type: 'food',
       price: 21,
-      imgUrl: '../../assets/mexican-burrito.jpg',
+      imgUrl: 'https://i.imgur.com/SQMJMo0.jpg',
     },
     {
       name: 'Flame Grilled Pizza',
       type: 'food',
       price: 21,
-      imgUrl: '../../assets/flame-grilled-pizza.jpg',
+      imgUrl: 'https://i.imgur.com/y1qSwBo.jpg',
     },
     {
       name: 'Cheeseburger & Chips',
       type: 'food',
       price: 19,
-      imgUrl: '../../assets/cheeseburger-and-chips.jpg',
+      imgUrl: 'https://i.imgur.com/G0uWy7l.jpg',
     },
     
     {
       name: 'Halloumi & Fies',
       type: 'food',
       price: 19,
-      imgUrl: '../../assets/halloumi-and-fries.jpg',
+      imgUrl: 'https://i.imgur.com/aF74nmM.jpg',
     },
     
     {
       name: 'Mac & Cheese',
       type: 'food',
       price: 20,
-      imgUrl: '../../assets/mac-and-cheese.jpg',
+      imgUrl: 'https://i.imgur.com/zF2d2B3.jpg',
     },
     {
       name: 'Cafe Latte',
       type: 'drink',
       price: 8,
-      imgUrl: '../../assets/coffee.jpg',
+      imgUrl: 'https://i.imgur.com/80Ynlvv.jpg',
     },
     {
       name: 'Flat White',
       type: 'drink',
       price: 8,
-      imgUrl: '../../assets/coffee.jpg',
+      imgUrl: 'https://i.imgur.com/80Ynlvv.jpg',
     },
     {
       name: 'Cup of Tea',
       type: 'drink',
       price: 8,
-      imgUrl: '../../assets/coffee.jpg',
+      imgUrl: 'https://i.imgur.com/80Ynlvv.jpg',
     },
     
     {
       name: 'Hot Chocolate',
       type: 'drink',
       price: 8,
-      imgUrl: '../../assets/hot-chocolate.jpg',
+      imgUrl: 'https://i.imgur.com/DBkX0XL.jpg',
     },
     // add more items here
   ];
