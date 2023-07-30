@@ -6,7 +6,7 @@ import {AngularFireAuthModule} from '@angular/fire/compat/auth'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { environment } from 'src/environment/environment';
+import { environment } from '../environment/environment';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { CreateAccountPageComponent } from './create-account-page/create-account-page.component';

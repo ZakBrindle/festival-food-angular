@@ -42,5 +42,5 @@ testem.log
 Thumbs.db
 
 # Env Files
-environment.ts
+environment - hidden.ts
 environment.prod.ts
