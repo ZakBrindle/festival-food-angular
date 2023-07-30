@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "name": "festival-food-angular",
+    "builds": [
+      { "src": "package.json", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/" }
+    ]
+  }
+  
